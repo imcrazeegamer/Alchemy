@@ -15,13 +15,15 @@ public class Player : MonoBehaviour
     private static bool playerExists;
     protected bool isAttacking = false;
     protected Coroutine attackRoutine;
+    private Animator anim;
     private void Awake()
     {
         health.Initialize();
     }
     private void Start()
     {
-     //   anim = GetComponent<Animator>();
+        
+        anim = GetComponent<Animator>();
         myrigidbody = GetComponent<Rigidbody2D>();
         if (!playerExists)
         {
@@ -41,7 +43,6 @@ public class Player : MonoBehaviour
             isMoving = true;
             StopAttack();
             lastMove = new Vector2(Input.GetAxisRaw("Horizontal"), 0f);
-            health.CurrentVal -= Input.GetAxisRaw("Horizontal");
         }
         if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
         {
@@ -67,7 +68,13 @@ public class Player : MonoBehaviour
                 attackRoutine = StartCoroutine(Attack());
             }
         }
-        //  anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        if (Input.GetKeyDown(KeyCode.Q))
+        {
+            //switch weapon
+        }
+        animate();
+
+        //    anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         //    anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
         //    anim.SetBool("PlayerMoving", playerMoving);
         //    anim.SetFloat("LastMoveX", lastMove.x);
@@ -86,5 +93,10 @@ public class Player : MonoBehaviour
             StopCoroutine(attackRoutine);
             isAttacking = false;
         }
+    }
+    public void animate()
+    {
+        anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
+        anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
     }
 }
