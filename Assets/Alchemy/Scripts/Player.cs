@@ -47,7 +47,6 @@ public class Player : MonoBehaviour
         if (Input.GetAxisRaw("Horizontal") < 0.5f && Input.GetAxisRaw("Horizontal") > -0.5f)
         {
             myrigidbody.velocity = new Vector2(0f, myrigidbody.velocity.y);
-
         }
         if (Input.GetAxisRaw("Vertical") > 0.5f || Input.GetAxisRaw("Vertical") < -0.5f)
         {
@@ -73,18 +72,13 @@ public class Player : MonoBehaviour
             //switch weapon
         }
         animate();
-
-        //    anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
-        //    anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
-        //    anim.SetBool("PlayerMoving", playerMoving);
-        //    anim.SetFloat("LastMoveX", lastMove.x);
-        //    anim.SetFloat("LastMoveY", lastMove.y);
+        
     }
     private IEnumerator Attack()
     { 
-            isAttacking = true;
-            yield return new WaitForSeconds(1);
-            StopAttack();
+        isAttacking = true;
+        yield return new WaitForSeconds(0.3f);
+        StopAttack();
     }
     public void StopAttack()
     {
@@ -98,5 +92,7 @@ public class Player : MonoBehaviour
     {
         anim.SetFloat("MoveX", Input.GetAxisRaw("Horizontal"));
         anim.SetFloat("MoveY", Input.GetAxisRaw("Vertical"));
+        anim.SetBool("PlayerMoving", isMoving);
+        anim.SetBool("PlayerAttacking", isAttacking);
     }
 }
