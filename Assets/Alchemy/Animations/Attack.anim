@@ -18,24 +18,30 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: 0, y: 0, z: 205.9}
+        value: {x: 0, y: 0, z: 300}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 0.14285715
-        value: {x: 0, y: 0, z: 186.9}
-        inSlope: {x: 0, y: 0, z: -124.59996}
-        outSlope: {x: 0, y: 0, z: -124.59996}
+        value: {x: 0, y: 0, z: 205.9}
+        inSlope: {x: 0, y: 0, z: -266}
+        outSlope: {x: 0, y: 0, z: -266}
         tangentMode: 0
       - serializedVersion: 2
         time: 0.2857143
-        value: {x: 0, y: 0, z: 170.3}
-        inSlope: {x: 0, y: 0, z: -232.39989}
-        outSlope: {x: 0, y: 0, z: -232.39989}
+        value: {x: 0, y: 0, z: 186.9}
+        inSlope: {x: 0, y: 0, z: -124.59995}
+        outSlope: {x: 0, y: 0, z: -124.59995}
         tangentMode: 0
       - serializedVersion: 2
-        time: 0.42857143
+        time: 0.42857146
+        value: {x: 0, y: 0, z: 170.3}
+        inSlope: {x: 0, y: 0, z: -232.39986}
+        outSlope: {x: 0, y: 0, z: -232.39986}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5714286
         value: {x: 0, y: 0, z: 120}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
@@ -43,39 +49,45 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Weppon/Sword
+    path: Weppon
   m_PositionCurves:
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: {x: -0.118, y: -0.165, z: -0.01}
+        value: {x: 0.11, y: -0.057, z: -0.01}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 0.14285715
-        value: {x: -0.157, y: -0.136, z: -0.01}
-        inSlope: {x: -0.30099997, y: 0.17150003, z: 0}
-        outSlope: {x: -0.30099997, y: 0.17150003, z: 0}
+        value: {x: 0.01, y: -0.108, z: -0.01}
+        inSlope: {x: -0.4725, y: 0, z: 0}
+        outSlope: {x: -0.4725, y: 0, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 0.2857143
-        value: {x: -0.204, y: -0.116, z: -0.01}
-        inSlope: {x: -0.322, y: 0.28000018, z: 0}
-        outSlope: {x: -0.322, y: 0.28000018, z: 0}
+        value: {x: -0.025, y: -0.105, z: -0.01}
+        inSlope: {x: -0.21000002, y: 0.031500015, z: 0}
+        outSlope: {x: -0.21000002, y: 0.031500015, z: 0}
         tangentMode: 0
       - serializedVersion: 2
         time: 0.42857143
-        value: {x: -0.249, y: -0.035, z: -0.01}
+        value: {x: -0.05, y: -0.099, z: -0.01}
+        inSlope: {x: -0.11199999, y: 0.083999954, z: 0}
+        outSlope: {x: -0.11199999, y: 0.083999954, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5714286
+        value: {x: -0.058, y: -0.042, z: -0.01}
         inSlope: {x: 0, y: 0, z: 0}
         outSlope: {x: 0, y: 0, z: 0}
         tangentMode: 0
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Weppon/Sword
+    path: Weppon
   m_ScaleCurves: []
   m_FloatCurves: []
   m_PPtrCurves:
@@ -100,14 +112,14 @@ AnimationClip:
   m_ClipBindingConstant:
     genericBindings:
     - serializedVersion: 2
-      path: 2917213313
+      path: 2251985450
       attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2917213313
+      path: 2251985450
       attribute: 4
       script: {fileID: 0}
       typeID: 4
@@ -151,25 +163,31 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.118
+        value: 0.11
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 0.14285715
-        value: -0.157
-        inSlope: -0.30099997
-        outSlope: -0.30099997
+        value: 0.01
+        inSlope: -0.4725
+        outSlope: -0.4725
         tangentMode: 136
       - serializedVersion: 2
         time: 0.2857143
-        value: -0.204
-        inSlope: -0.322
-        outSlope: -0.322
+        value: -0.025
+        inSlope: -0.21000002
+        outSlope: -0.21000002
         tangentMode: 136
       - serializedVersion: 2
         time: 0.42857143
-        value: -0.249
+        value: -0.05
+        inSlope: -0.11199999
+        outSlope: -0.11199999
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.5714286
+        value: -0.058
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -177,7 +195,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.x
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -185,25 +203,31 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: -0.165
+        value: -0.057
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 0.14285715
-        value: -0.136
-        inSlope: 0.17150003
-        outSlope: 0.17150003
+        value: -0.108
+        inSlope: 0
+        outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 0.2857143
-        value: -0.116
-        inSlope: 0.28000018
-        outSlope: 0.28000018
+        value: -0.105
+        inSlope: 0.031500015
+        outSlope: 0.031500015
         tangentMode: 136
       - serializedVersion: 2
         time: 0.42857143
-        value: -0.035
+        value: -0.099
+        inSlope: 0.083999954
+        outSlope: 0.083999954
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.5714286
+        value: -0.042
         inSlope: 0
         outSlope: 0
         tangentMode: 136
@@ -211,7 +235,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.y
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -237,6 +261,12 @@ AnimationClip:
         tangentMode: 136
       - serializedVersion: 2
         time: 0.42857143
+        value: -0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.5714286
         value: -0.01
         inSlope: 0
         outSlope: 0
@@ -245,7 +275,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalPosition.z
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -270,7 +300,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.42857143
+        time: 0.42857146
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.5714286
         value: 0
         inSlope: 0
         outSlope: 0
@@ -279,7 +315,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.x
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -304,7 +340,13 @@ AnimationClip:
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.42857143
+        time: 0.42857146
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.5714286
         value: 0
         inSlope: 0
         outSlope: 0
@@ -313,7 +355,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.y
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -321,24 +363,30 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 2
         time: 0
-        value: 205.9
+        value: 300
         inSlope: 0
         outSlope: 0
         tangentMode: 136
       - serializedVersion: 2
         time: 0.14285715
-        value: 186.9
-        inSlope: -124.59996
-        outSlope: -124.59996
+        value: 205.9
+        inSlope: -266
+        outSlope: -266
         tangentMode: 136
       - serializedVersion: 2
         time: 0.2857143
-        value: 170.3
-        inSlope: -232.39989
-        outSlope: -232.39989
+        value: 186.9
+        inSlope: -124.59995
+        outSlope: -124.59995
         tangentMode: 136
       - serializedVersion: 2
-        time: 0.42857143
+        time: 0.42857146
+        value: 170.3
+        inSlope: -232.39986
+        outSlope: -232.39986
+        tangentMode: 136
+      - serializedVersion: 2
+        time: 0.5714286
         value: 120
         inSlope: 0
         outSlope: 0
@@ -347,7 +395,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: localEulerAnglesRaw.z
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -358,7 +406,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.x
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -368,7 +416,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.y
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -378,7 +426,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalEulerAngles.z
-    path: Weppon/Sword
+    path: Weppon
     classID: 4
     script: {fileID: 0}
   m_HasGenericRootTransform: 0
